@@ -6,7 +6,8 @@
 
 Include the module in your project:
 ```julia
-using DecayTreeDataFrames
+import Pkg
+Pkg.add(url="https://github.com/mmikhasenko/DecayTreeDataFrames.jl")
 ```
 
 ## Usage Example
