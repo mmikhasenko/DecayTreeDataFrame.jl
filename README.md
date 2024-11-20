@@ -12,6 +12,14 @@ Pkg.add(url="https://github.com/mmikhasenko/DecayTreeDataFrames.jl")
 
 ## Usage Example
 
+Start by importing the `DecayTreeDataFrames.jl` and two more convenient packages, `Parameters.jl`, and `DataFrames.jl`.
+
+```julia
+using DecayTreeDataFrames
+using Parameters
+using DataFrames
+```
+
 ### Build a Tree
 ```julia
 tree_structure = ((:e, (:r, :u)), (:h, :g))
